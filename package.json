@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "https://github.com/Lemming97/E-commerce-Back-End.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lindsey Martin",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.3.3"
