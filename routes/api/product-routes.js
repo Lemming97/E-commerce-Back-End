@@ -70,6 +70,7 @@ router.post('/', (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
+
   Product.create({
       product_name: req.body.product_name,
       price: req.body.price,
@@ -154,9 +155,8 @@ router.put('/:id', (req, res) => {
     });
 });
 
-
-
-router.delete("/:id", (req, res) => {
+router.delete('/:id', (req, res) => {
+  // delete one product by its `id` value
   Product.destroy({
       where: {
         id: req.params.id,
@@ -176,5 +176,6 @@ router.delete("/:id", (req, res) => {
       res.status(500).json(err);
     });
 });
+
 
 module.exports = router;
