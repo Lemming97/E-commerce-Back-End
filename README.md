@@ -67,12 +67,12 @@ To understand the fundamental architecture of e-commerce sites.
 
 
 ## Screenshots
-<br><img src="./assets/Category1.png" alt="screenshot of start tables" width="350"/>
-<br><img src="./assets/Category2.png" alt="screenshot of final table" width="350"/>
-<br><img src="./assets/Product1.png" alt="screenshot of final table" width="350"/>
-<br><img src="./assets/Product2.png" alt="screenshot of final table" width="350"/>
-<br><img src="./assets/Tag1.png" alt="screenshot of final table" width="350"/>
-<br><img src="./assets/Tag2.png" alt="screenshot of final table" width="350"/>
+<br><img src="./Assets/Category1.png" alt="screenshot of Category1" width="350"/>
+<br><img src="./Assets/Category2.png" alt="screenshot of Category2" width="350"/>
+<br><img src="./Assets/Product1.png" alt="screenshot of Product1" width="350"/>
+<br><img src="./Assets/Product2.png" alt="screenshot of Product2" width="350"/>
+<br><img src="./Assets/Tag1.png" alt="screenshot of Tag1" width="350"/>
+<br><img src="./Assets/Tag2.png" alt="screenshot of Tag2" width="350"/>
 
 
 
