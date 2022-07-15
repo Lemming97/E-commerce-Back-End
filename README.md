@@ -9,25 +9,15 @@ Employee Tracker is a content-management system (CMS). It is command-line applic
 
 
 ## Table of Contents
-* [Installation](#installation)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Usage](#usage)
+* [Installation](#installation)
 * [Video](#video)
 * [Screenshots](#screenshots)
-* [Tests](#tests)
 
 
 
-## Installation 
-
-1. Clone the repository from GitHub
-1. Install `node.js`
-1. Run `npm install` to install dependencies. Dependencies include mysql, console.table, express, inquirer, and jest.
-1. Run `mysql -u root -p` to start the database connection. 
-1. Updated `connection.js` file with your own mysql user password. 
-1. Create the database by running the command: `source db/schema.sql`.
-1. Seed the database by running the command: `source db/seeds.sql`.
 
  
 ## User Story
@@ -56,21 +46,35 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Usage
+To understand the fundamental architecture of e-commerce sites.
+
+## Installation
+
+1. Clone the repository from GitHub
+1. Install `node.js`
+1. Run `npm install` to install dependencies. Dependencies include mysql, console.table, express, inquirer, and jest.
+1. Run `mysql -u root -p` to start the database connection. 
+1. Updated `connection.js` file with your own mysql user password. 
+1. Create the database by running the command: `source db/schema.sql`.
+1. Seed the database by running the command: `source db/seeds.sql`.
+1. Start the Database by running the command: `npm start`.
+
 
 
 ## Video
-<p>To View the Video: <a href="https://drive.google.com/file/d/1OAsHK8kMjZYHA3-vMOgguSBajjdZIB1X/view?usp=sharing"> Click Here</a></p>
+<p>To View the Video: <a href="https://drive.google.com/file/d/1qtD7d4FfdfFd0vNKPGVtoHt-qCi5MmUU/view?usp=sharing"> Click Here</a></p>
 
 
 
 ## Screenshots
-<br><img src="./assets/Screen1.png" alt="screenshot of start tables" width="350"/>
-<br><img src="./assets/Screen2.png" alt="screenshot of final table" width="350"/>
+<br><img src="./assets/Category1.png" alt="screenshot of start tables" width="350"/>
+<br><img src="./assets/Category2.png" alt="screenshot of final table" width="350"/>
+<br><img src="./assets/Product1.png" alt="screenshot of final table" width="350"/>
+<br><img src="./assets/Product2.png" alt="screenshot of final table" width="350"/>
+<br><img src="./assets/Tag1.png" alt="screenshot of final table" width="350"/>
+<br><img src="./assets/Tag2.png" alt="screenshot of final table" width="350"/>
 
 
-## Tests 
-Jest is available for testing. 
-1. In the terminal: run `npm test` to run Jest for tests on constructors.
 
 
 
